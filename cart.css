@@ -1,0 +1,58 @@
+/* cart.css */
+
+/* Styles for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the cart section */
+.cart {
+    padding: 20px;
+}
+
+/* Styles for the cart heading */
+.cart .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for cart items */
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Styles for individual cart items */
+.cart-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+}
+
+/* Styles for cart item images */
+.cart-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for cart item details */
+.cart-item-details {
+    margin-top: 10px;
+}
+
+/* Styles for cart item remove button */
+.cart-item-remove {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Styles for cart empty message */
+.cart-empty {
+    text-align: center;
+    font-weight: bold;
+}
